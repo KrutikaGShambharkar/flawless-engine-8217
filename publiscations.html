@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Nicholas Chiang</title>
+    <link rel="icon" href="img/headset_logo_square.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/bundle.min.css" rel="stylesheet">
+
+    <!-- modernizr -->
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="scripts/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <!--
+                   -<a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+		   -->
+                <a href="index.html">
+                    <h3>Nicholas Chiang<span>.</span></h3>
+                </a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About me</li>
+
+                <li><a href="index.html">Intro</a></li>
+                <li><a href="publications.html">Papers</a><i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="resume.pdf">resume</a></li>
+
+
+
+                <li class="box-label">Follow me</li>
+
+                <li class="box-social"><a href="#0">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li class="box-social"><a href="#0">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <!--
+                   -<li class="box-social"><a href="#0">
+                   -        <ion-icon name="logo-twitter"></ion-icon>
+                   -    </a></li>
+		   -->
+                <li class="box-social"><a href="https://github.com/nicholaschiang/">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a></li>
+                <li class="box-social"><a href="https://scholar.google.com/citations?user=BNFc5p8AAAAJ">
+                        <ion-icon name="school"></ion-icon>
+                    </a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+
+    <!-- top bar -->
+    <div class="top-bar">
+        <h1>Publications</h1>
+        <p><a href="/">Home</a> / Papers</p>
+    </div>
+    <!-- end top bar -->
+
+    <!-- Main container -->
+    <div class="container main-container clearfix">
+        <div class="col-md-6">
+            <img src="/img/hack.svg" width="1200px" height="1500px" class="img-responsive" alt="First page of final paper." style="box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" />
+        </div>
+        <div class="col-md-6">
+            <h3>Automating the Generation of Hardware Component Knowledge Bases</h3>
+            <h5>L. Hsiao, S. Wu, <strong>N. Chiang</strong>, C. Re, and P. Levis</h5>
+            <div class="h-30"></div>
+            <p>Hardware component databases are critical resources in designing embedded systems. Since generating these databases requires hundreds of thousands of hours of manual data entry, they are proprietary, limited in the data they provide, and have many random data entry errors.</p>
+            <p>We present a machine-learning based approach for automating the generation of component databases directly from datasheets. Extracting data directly from datasheets is challenging because: (1) the data is relational in nature and relies on non-local context, (2) the documents are filled with technical jargon, and (3) the datasheets are PDFs, a format that decouples visual locality from locality in the document. The proposed approach uses a rich data model and weak supervision to address these challenges.</p>
+            <p>We evaluate the approach on datasheets of three classes of hardware components and achieve an average quality of 75 F1 points which is comparable to existing human-curated knowledge bases. We perform two applications studies that demonstrate the extraction of multiple data modalities such as numerical properties and images. We show how different sources of supervision such as heuristics and human labels have distinct advantages which can be utilized together within a single methodology to automatically generate hardware component knowledge bases.</p>
+            <div class="h-10"></div>
+            <ul class="social-ul">
+                <li><a href="https://sing.stanford.edu/site/publications/hack-lctes19.pdf">
+                        <ion-icon name="document"></ion-icon>
+                    </a></li>
+                <li><a href="https://github.com/lukehsiao/lctes-p27">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a></li>
+                <li class="box-social"><a href="https://scholar.google.com/citations?user=BNFc5p8AAAAJ">
+                        <ion-icon name="school"></ion-icon>
+                    </a></li>
+            </ul>
+
+
+        </div>
+    </div>
+    <!-- end Main container -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© Nicholas Chiang 2019</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+    <!-- end back to top -->
+
+
+
+    <!-- jQuery -->
+    <script src="scripts/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/animated-headline.js"></script>
+    <script src="scripts/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="scripts/custom.js"></script>
+
+</body>
+
+</html>
